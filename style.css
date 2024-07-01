@@ -187,3 +187,23 @@ section{
         transition: all .2s ease;
     }
 }
+@media(max-width:375px){
+    .hero-text-p1{
+        font-size:small;
+        font-weight: 100;
+        position: absolute;
+        left: 100px;
+    }
+    .hero-text-p2{
+        font-size:x-small;
+        font-weight: 90;
+        position: absolute;
+        left: 100px;
+    }
+    .hero-text h1{
+        font-size:large;
+        font-weight: 700;
+        position: absolute;
+        left: 100px;
+    } 
+}
